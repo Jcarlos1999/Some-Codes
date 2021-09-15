@@ -4,8 +4,8 @@
 using namespace std;
 
 struct item{
-	int peso; // peso do item
-	int val; // valor do item
+	int peso; //peso do item
+	int val; //valor do item
 };
 
 // 1º criterio - maior valor
