@@ -77,7 +77,7 @@ int main(int argc, char const *argv[])
 
    turma.setMateria("Marketing Digital");
 
-   cout << alunoUm.getNome() << endl;
+   cout << alunoUm.getNome() << endl ;
    cout << alunoDois.getNome() << "\n";
    cout << professor.getNome() << "\n";
 
