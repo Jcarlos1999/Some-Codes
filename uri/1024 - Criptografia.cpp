@@ -2,8 +2,6 @@
 #include <string>
 using namespace std;
 
-// Aprensentando Presentation error, logica 100%
-
 string segunda_passada(string text)
 {
 	int tam = text.length();
@@ -28,7 +26,7 @@ void terceira_passada(string text)
 }
 
 
-string primeira_passada(string text)
+void primeira_passada(string text)
 {
 	int tam = text.length();
 
@@ -46,20 +44,20 @@ string primeira_passada(string text)
 
 	string text_aux = segunda_passada(text);
 	terceira_passada(text_aux);
-	return text;
 }
 
 
 int main(int argc, char** argv)
 {
-	string text, text_result;
+	string text;
 	int n;
 	cin >> n;
+	cin.ignore();
 	
-	for(int i = 0; i <= n; i++)
+	for(int i = 0; i < n; i++)
 	{
 		getline(cin, text);
-		text_result = primeira_passada(text);
+		primeira_passada(text);
 		
 	}
 
