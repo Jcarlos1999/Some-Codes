@@ -1,7 +1,10 @@
 #include <iostream>
 #include <string>
 using namespace std;
+// UTILIZANDO A TABELAS ASCII
 
+
+// Troca inverte o texto da linha
 string segunda_passada(string text)
 {
 	int tam = text.length();
@@ -14,6 +17,7 @@ string segunda_passada(string text)
 	return text;
 }
 
+// Troca os caracteres por caracter a esquerda
 void terceira_passada(string text)
 {
 	int tam = text.length();
@@ -25,7 +29,7 @@ void terceira_passada(string text)
 	cout << text << "\n";
 }
 
-
+// Troca as letras i pelo o terceiro caractere a frente
 void primeira_passada(string text)
 {
 	int tam = text.length();
